@@ -1,0 +1,149 @@
+* {
+    font-family: arial, sans-serif;
+    text-decoration: none;
+}
+
+body {
+    flex-direction: column;
+    width: auto;
+    align-content: space-between;
+}
+nav {
+    max-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 25px ;
+    font-size: 14px;
+}
+
+nav a {
+    padding: 5px 5px 5px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav img:hover {
+    opacity: .85;
+}
+
+
+.signin {
+    font-weight: bold;
+    background: #4285f4;
+    color:white;
+    border: 1px ;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.milieu .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 250px;
+    
+}
+
+
+.milieu .search {
+    margin: auto;
+    width: 100px
+}
+
+.search {
+    display: flex;
+    justify-content: space-around;
+}
+
+.texte {
+    border-radius: 15px;
+    display: block;
+    border:1px solid rgb(148, 148, 148);  
+    
+}
+
+.bouton {
+    display: flex;
+    justify-content:center;
+    border: 1px;
+    cursor: pointer;  
+}
+
+.recherche {
+    background: #f8f9fa;
+    font-size: 14px;
+    color: #3c4043;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    border: 1px ;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 8px;
+    margin: 20px 20px;
+    padding: 0px 16px;
+}
+.chance {
+    background: #f8f9fa;
+    font-size: 14px;
+    color: #3c4043;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    border: 1px ;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 8px;
+    margin: 20px 20px;
+    padding: 0px 16px;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom:0;
+    max-height: 100px;
+    align-items: flex-end;
+    background: #f2f2f2;
+    border: 1px solid #eee;
+    color: #70757a; 
+    font-size: 14px;
+}
+
+footer h3 {
+    font-weight: 400;
+    margin-left: 90px;
+}
+
+footer a {
+    color: #5f6368;
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+
+.basdepage a:hover {
+    text-decoration: underline;
+}
+
+.basdepage {
+    color: #70757a; 
+    display: flex;
+    justify-content: space-around;
+}
+
+.basdepage a:active {
+    color: #70757a;
+}
+
+.feuille {
+    float:left;
+}
